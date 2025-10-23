@@ -1,0 +1,14 @@
+import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'app-tooltip',
+    templateUrl: './tooltip.component.html',
+    styleUrls: ['./tooltip.component.scss'],
+    imports: [CommonModule]
+})
+export class TooltipComponent  {
+  html = `<span class="btn-block btn-danger well-sm">Never trust not sanitized HTML!!!</span>`;
+ 
+
+}
